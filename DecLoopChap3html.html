@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <script>
+        //var age = prompt("Enter your age", "");
+        //var isOver60 = parseInt(age, 10) > 60;
+        //document.write("Older than 60: " + isOver60);
+
+        var roomTemp = 80;
+
+        if (roomTemp > 80) {
+            roomTemp = roomTemp - 10;
+
+        }
+        document.write("<br/>")
+        //document.write("The real temperature is: " + roomTemp);
+
+        var myAge = parseInt(prompt("Enter your age", 30), 10);
+
+        if (myAge >= 0 && myAge <= 10)
+        {
+            document.write("myAge is between 0 and 10<br />");
+        }
+
+        if (!(myAge >= 0 && myAge <= 10))
+        {
+            document.write("myAge is  NOT between 10<br />");
+        }
+
+        if (myAge >= 90 || myAge <= 10) {
+            document.write("myAge is LESS tahn 90 or Less than 10<br />");
+        }
+
+        if ((myAge >= 30 && myAge <= 39)  || (myAge >= 80 && myAge <= 89)) {
+            document.write("myAge is between 30 and 39 s is between 80 and 89<br />");
+        }
+
+
+
+    </script>
+
+
+
+</body>
+</html>
